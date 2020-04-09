@@ -1,0 +1,18 @@
+##############################################################################
+#  A growing list of extremely useful command and switch combinations and a  #
+#  brief description of the expected output.                                 #
+##############################################################################
+
+# INFORMATION ON SYSTEM HARDWARE
+
+lspci -nnk | grep net -A2
+
+
+# Gives you a very detailed cmd-line output of your current machine's HW info
+# very handy for cross pollenating drivers ets between win/lin.lspci -nnk | grep net -A2
+
+
+# Gives you a very detailed cmd-line output of your current machine's HW info
+# very handy for cross pollenating drivers ets between win/lin.
+
+
